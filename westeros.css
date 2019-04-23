@@ -1,0 +1,22 @@
+body {
+    font-family: 'Cinzel Decorative', cursive;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.hero {
+	padding: 250px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url("https://images4.alphacoders.com/242/242556.png");
+  background-size: cover;
+  color: #ffffff;
+}
+.hero a {
+    font-family: 'Cinzel Decorative', bold;
+	font-size: 24px;
+	text-decoration: none;
+}
+#footer {
+    font-size: 0.7rem;
+}
