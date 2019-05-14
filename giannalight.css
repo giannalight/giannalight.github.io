@@ -1,0 +1,34 @@
+body {
+    font-family: 'Raleway', sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
+.hero {
+    padding: 500px 0;
+	margin: 30px;
+  font-family: 'Trebuchet MS', Helvetica, sans-serif;
+  background-image: url("https://images4.alphacoders.com/242/242556.png");
+  background-size: auto;
+  color: #ffffff;
+}
+
+#footer {
+    font-size: 0.7rem;
+}
+ul {
+    list-style-type: none;
+    margin: 0 2px;
+    padding: 0;
+    display: flex;
+    justify-content: space-around;
+  }
+  li {
+    display: inline;
+    color: black;
+    font-family: 'Raleway', sans-serif;
+    font-size: 1rem;
+  }
+  .nav {
+      color: black;
+  }
