@@ -7,10 +7,8 @@ body {
 .hero {
     padding: 500px 0;
 	margin: 30px;
-  font-family: 'Trebuchet MS', Helvetica, sans-serif;
-  background-image: url("https://images4.alphacoders.com/242/242556.png");
-  background-size: auto;
-  color: #ffffff;
+  font-family: 'Raleway', sans-serif;
+  background-color:white
 }
 
 #footer {
