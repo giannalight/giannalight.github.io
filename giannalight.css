@@ -1,14 +1,12 @@
 body {
-    font-family: 'Raleway', sans-serif;
+    font-family:  'Raleway', sans-serif;
     text-align: center;
     height: 100%;
     width: 100%;
 }
 .hero {
-    padding: 500px 0;
 	margin: 30px;
   font-family: 'Raleway', sans-serif;
-  background-color:white
 }
 
 #footer {
@@ -25,9 +23,23 @@ ul {
     display: inline;
     color: black;
     font-family: 'Raleway', sans-serif;
-    font-size: 1rem;
+    font-size: .9rem;
   }
   .nav {
       color: black;
       font-family: 'Raleway', sans-serif;
+
   }
+p {
+    margin: 0 auto;
+    width: 40rem;
+    height: 15rem;
+    background-color: #F5E6E7; 
+    text-align: left;
+    } 
+h1 {
+    margin: 0 auto;
+    width: 18rem;
+    height: 5rem;
+    Background-color: #F5E6E7;
+}
