@@ -5,7 +5,7 @@ body {
     width: 100%;
 }
 .hero {
-	margin: 30px;
+	padding: 3rem;
   font-family: 'Raleway', sans-serif;
 }
 
@@ -19,7 +19,7 @@ ul {
     display: flex;
     justify-content: space-around;
   }
-  li {
+  li a{
     display: inline;
     color: black;
     font-family: 'Raleway', sans-serif;
@@ -28,12 +28,12 @@ ul {
   .nav {
       color: black;
       font-family: 'Raleway', sans-serif;
-
   }
 p {
     margin: 0 auto;
+    padding:2rem;
     width: 40rem;
-    height: 15rem;
+    height: 12rem;
     background-color: #F5E6E7; 
     text-align: left;
     } 
@@ -43,3 +43,6 @@ h1 {
     height: 5rem;
     Background-color: #F5E6E7;
 }
+a {
+    text-decoration: none;
+    }
