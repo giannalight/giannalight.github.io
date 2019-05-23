@@ -1,4 +1,11 @@
 /* for card layout */
+
+body {
+    font-family:  'Raleway', sans-serif;
+    text-align: center;
+    height: 100%;
+    width: 100%;
+}
 .gallery-row {
     margin-bottom: 2rem;
 }
@@ -9,5 +16,11 @@
 }
 
 .card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
-    color: blueviolet;
+    color: #F5E6E7;
 }
+p {
+    margin: 0 auto;
+    padding:1rem;
+    width: 40rem;
+    text-align: left;
+    } 

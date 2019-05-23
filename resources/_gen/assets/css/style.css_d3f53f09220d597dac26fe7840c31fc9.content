@@ -1,1 +1,1 @@
-.gallery-row{margin-bottom:2rem}.card-body a{text-decoration:none;color:#000}.card-body a:hover{color:#8a2be2}
+body{font-family:raleway,sans-serif;text-align:center;height:100%;width:100%}.gallery-row{margin-bottom:2rem}.card-body a{text-decoration:none;color:#000}.card-body a:hover{color:#f5e6e7}p{margin:0 auto;padding:1rem;width:40rem;text-align:left}
