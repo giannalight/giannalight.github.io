@@ -1,0 +1,22 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {{ partial "head.html" . }}
+    {{/*  imports "head.html" from the partials/ folder in layouts/  */}}
+    {{/*  the second argument is the context for variables in "head.html" and using "." 
+    means use the same variable namespace as this document  */}}
+
+</head>
+<body>
+    {{ partial "navbar.html" (dict "context" . "originPage" "home") }}
+    {{/*  partial takes two parameters: first parameter is a string, the second is an object  */}}
+    {{/*  in this case, the second argument is a dictionary object  */}}
+    {{/*  dict creates a new dictionary with a set of key-value pairs. 
+        As many as you want, but they must be paired "key value key value key value" */}}
+
+    {{ partial "card-layout.html" . }}
+
+
+    {{ partial "scripts.html" }}
+</body>
+</html>

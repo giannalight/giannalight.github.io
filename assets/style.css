@@ -1,0 +1,13 @@
+/* for card layout */
+.gallery-row {
+    margin-bottom: 2rem;
+}
+
+.card-body a{ /* changes the style of a only when it's inside of card-body */
+    text-decoration: none;
+    color: black;
+}
+
+.card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
+    color: blueviolet;
+}

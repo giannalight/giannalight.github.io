@@ -1,0 +1,41 @@
+<div class="container">
+    {{ $numColumns := 3 }}
+    {{ range $idx, $proj:= .Site.Data.project_order.content }}
+        {{ if modBool $idx $numColumns }} 
+        {{/*  if $idx modulo $numColumns = 0  */}}
+            <div class="row gallery-row">
+        {{ end }}
+        {{ with $.Site.GetPage $proj }}
+        {{ $img:= .Resources.GetMatch .Params.projectImage }}
+        {{ $imgThumb := $img.Fill "400x400" }}
+        {{/*  Resizes and crops the project image to 400 X 400 so that we get a perfect square which loads quickly  */}}
+        <div class="col-4">
+            <div class="card h-100 border-0">
+                <img src="{{ $imgThumb.RelPermalink }}" class="card-img-top" alt="...">
+                <div class="card-body">
+                    <a href="{{ .RelPermalink }}" class="stretched-link">
+                        <h5 class="card-title">{{ .Title }}</h5>
+                        <p class="card-text">{{ .Params.shortDescription }}</p>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+            {{/*  <h2>{{ .Title }}</h2>
+            <p>{{ .Params.shortDescription }}</p>
+            {{ $img:= .Resources.GetMatch .Params.projectImage }}  */}}
+            {{/*  .Params.projectImage is just the name of the file, but it isn't the file itself and also 
+            doesn't tell us exactly where the file is. Instead of hardcoding the path, we use GetMatch to find the path  */}}
+            {{/*  GetMatch returns the very first thing it finds when searching so don't have more than one file with the same name  */}}
+            {{/*    */}}
+            {{/*  <img src="{{ $img.RelPermalink }}" />  */}}
+
+            
+        {{ end }}
+        {{ $nextIdx := add $idx 1 }}
+        {{ if modBool $nextIdx $numColumns }}
+        {{/*  if the index of the following project will be a multiple of $numColumns, end the row  */}}
+            </div>
+        {{ end }}
+    {{ end }}
+</div>

@@ -1,0 +1,16 @@
+
+    <meta charset="UTF-8"> {{/*ASCII is 256 characters, UTF-8 is massive and supports emojis*/}}    
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"> {{/*on a mobile device, it'll load the page to be as wide as the device and to have that be the scale 100%*/}}   
+    
+    {{/* import bootstrap stylesheet */}}   
+    {{ $bootstrapcss := resources.Get "bootstrap/bootstrap.css" | resources.Minify }}
+    {{/* creates the variable $style and sets it equal to a resource retrieved from the assets directory with the relative directory above*/}}  
+    {{/* The resources.Minify part says  to set $style equal to the minifed version of $style*/}}   
+    <link rel="stylesheet" href="{{ $bootstrapcss.RelPermalink }}">{{/*fetches the path to this stylesheet relative to the HTML file that I'm in--*/}} 
+    
+    {{ $style := resources.Get "style.css" | resources.Minify }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
+    
+    <title>{{ .Site.Title }}{{ with .Params.Title }} | {{ . }} {{ end }}</title>
+    {{/*  with is a block that ends with  {{end}} */}}
+    {{/*  with means if there's a value in .Params.Title, then use .Params.Title in the place where I have ".""  */}}
