@@ -8,12 +8,32 @@ body {
 }
 h1 {
     font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em; 
+    margin-top: 0.4em;
+    margin-bottom:0.4em;
+}
+h2 {
+    font-family: 'Abril Fatface', cursive;
+    letter-spacing: 0.03em; 
+    border: .2rem solid black ;
+    padding: .5rem;
 }
 .navbar-nav .nav-link {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
 }
-
+#titlecoloredbox {
+    background-color: #F5E6E7;
+    width: 12rem;
+    margin: 0 auto;
+    border: .8rem solid #B38B5F ;
+  }
+#coloredbox {
+    background-color: #F7F7F7 ;
+    padding: 10px ;
+    border: 2rem solid #C1D4C9 ;
+  }
+  
 .gallery-row {
     margin-bottom: 2rem;
 }
@@ -28,7 +48,12 @@ h1 {
 }
 p {
     margin: 0 auto;
-    padding:1rem;
-    width: 40rem;
+    padding:.9rem;
+    width: 39rem;
     text-align: left;
     } 
+        
+.container {
+    height: 70%;
+    width: 70%;
+}

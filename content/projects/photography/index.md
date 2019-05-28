@@ -9,7 +9,6 @@
     date = 2019-05-23T11:32:12-07:00 #the date the file was created
 
     
-    shortDescription = "Here's a 5 word description"
     projectVideo = ""
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099

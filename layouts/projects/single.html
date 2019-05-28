@@ -8,13 +8,15 @@
 <body>
     {{ partial "navbar.html" (dict "context" . "originPage" "project") }}
     <div class="container">
+            <div id="titlecoloredbox">
         <h1>{{ .Title }}</h1>
-        
+                </div>
         {{/*  Each project has either a project image or a project video  */}}
         {{/*  The code below checks if there's a project video, and if so checks the type  */}}
         {{/*  Youtube videos and Vimeo videos are handled differently. If you have another video type 
             then you'll need to add code to handle that new video type  */}}
         {{/*  If there's no project video, the project image is displayed in the header  */}}
+        <div id="coloredbox">
         {{ if .Params.projectVideo }}
             {{ if eq .Params.projectVideoType "youtube" }}
                 <div class="embed-responsive embed-responsive-16by9">
@@ -44,6 +46,6 @@
             Do that in the .md file for the project  */}}
      
     </div>
-    
+    </div>
 </body>
 </html>
