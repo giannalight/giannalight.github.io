@@ -1,6 +1,8 @@
 
 <link href="https://fonts.googleapis.com/css?family=Raleway&display=swap" rel="stylesheet">
 
+<link href="https://fonts.googleapis.com/css?family=Abril+Fatface&display=swap" rel="stylesheet">
+
     <meta charset="UTF-8"> {{/*ASCII is 256 characters, UTF-8 is massive and supports emojis*/}}    
     <meta name="viewport" content="width=device-width, initial-scale=1.0"> {{/*on a mobile device, it'll load the page to be as wide as the device and to have that be the scale 100%*/}}   
 
@@ -12,7 +14,7 @@
       
     {{ $style := resources.Get "style.css" | resources.Minify }}
     <link rel="stylesheet" href="{{ $style.RelPermalink }}"> 
-    
+
     <title>{{ .Site.Title }}{{ with .Params.Title }} | {{ . }} {{ end }}</title>
     {{/*  with is a block that ends with  {{end}} */}}
     {{/*  with means if there's a value in .Params.Title, then use .Params.Title in the place where I have ".""  */}}

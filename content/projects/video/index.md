@@ -2,7 +2,7 @@
     #this is the "front matter" of the template of a project. It's the variables associated with the file
     #this portion is written in TOML (Tom's Obvious Minimal Language)
     
-    title = "Video"
+    title = "VIDEO"
     #replace takes the filename and replaces all hyphens with spaces so that when it appears on your page, it's using spaces. The filename is used in the URL and URLs can't have spaces so use hyphen in the filename.
     #title converts to title-case (using capital letters for principal words only)
     
@@ -10,7 +10,7 @@
 
     
     shortDescription = "Video"
-    projectVideo = "watch?v=wM5QiH8K8UI&t=4s"
+    projectVideo = "wM5QiH8K8U"
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099
     projectVideoType = "youtube"
@@ -24,7 +24,7 @@
 
 +++
 
-**'This is America'-Childish Gambino Analysis**
+**"This is America" Childish Gambino Analysis**
 \
 \
 A short documentary analyzing the underlying themes of Childish Gambino’s "This is America" music video.
