@@ -5,33 +5,39 @@ body {
     text-align: center;
     height: 100%;
     width: 100%;
+    background-color:white;
 }
 h1 {
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 0.03em; 
+    font-family: Baskerville, "Baskerville Old Face", "Hoefler Text", Garamond, "Times New Roman", serif; font-style: italic; font-size: 3.5rem; font-variant: normal; font-weight: 600;
+    letter-spacing: .01em; 
     margin-top: 0.4em;
     margin-bottom:0.4em;
+    color:#424242
 }
 h2 {
-    font-family: 'Abril Fatface', cursive;
-    letter-spacing: 0.03em; 
+    font-family: 'Delius Unicase', cursive;
+    letter-spacing: -0.08em; 
     border: .2rem solid black ;
     padding: .5rem;
 }
 .navbar-nav .nav-link {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
+    
 }
+
 #titlecoloredbox {
     background-color: #F5E6E7;
-    width: 12rem;
+    width: 16rem;
     margin: 0 auto;
     border: .8rem solid #B38B5F ;
   }
 #coloredbox {
     background-color: #F7F7F7 ;
-    padding: 10px ;
-    border: 2rem solid #C1D4C9 ;
+    padding: .2rem ;
+    border: 1.7rem solid #C1D4C9 ;
+    margin: 0 auto;
+    width:43rem;
   }
   
 .gallery-row {
@@ -44,7 +50,7 @@ h2 {
 }
 
 .card-body a:hover{ /* changes the style of a ON HOVER and only when it's inside of card-body */
-    color: #F5E6E7;
+    color: rgb(58, 56, 56);
 }
 p {
     margin: 0 auto;
