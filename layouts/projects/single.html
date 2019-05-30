@@ -27,6 +27,7 @@
                     </div>
                 {{ else if eq .Params.projectVideoType "" }}
                     <p>projectVideoType not entered!!! </p>
+                </div>
                 {{ else }}
                     <p>video streaming platform not yet supported! TODO: add code here for your new video platform</p>
             {{ end }}
@@ -40,11 +41,10 @@
         {{ end }}
         {{ end }}
         <div id="coloredbox">
-        {{ .Content }}
-        {{/*  You can add more images and videos in the content as well! 
-            Do that in the .md file for the project  */}}
-     
-    </div>
+            {{ .Content }}
+            {{/*  You can add more images and videos in the content as well! 
+                Do that in the .md file for the project  */}}
+        </div>
     </div>
 </body>
 </html>

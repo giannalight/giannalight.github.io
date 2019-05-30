@@ -19,13 +19,23 @@
     #This image should be saved in the project folder with the name of your project 
     projectImageAltText = "This is America music video still"
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
-   
 
 +++
+<h3>"This Is America"- Childish Gambino Analysis</h3>
 
-**"This Is America" Childish Gambino Analysis**
-\
-\
 A short documentary analyzing the underlying themes of Childish Gambino’s "This Is America" music video.
- 
+
 This short documentary aims to educate and raise questions surrounding the topic of guns and gun rights in the United States. We break down the symbolism in Childish Gambino’s Grammy award winning music video, and discuss current issues regarding guns and racism against African Americans.
+    </div>
+<div class="embed-responsive embed-responsive-16by9">
+                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_dyx5UuLB6o?modestbranding=0&showinfo=0&rel=0" frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>    
+                </div>
+<div id="coloredbox">
+<h3>Play Time</h3>
+<b>My Role</b>: Sound designer and voice actor
+<br> 
+<br> 
+This was a collaboration piece where my two partners and I read and interpreted a short story, "Playtime", then designed and edited an audio track for it. All of the atmosphere, Foley sounds, and dialogue were recorded by us. After finishing our soundtrack, three other inspired individuals then took our audio and produced a video to go along with it.
+</div>
+<br> 
+<br> 

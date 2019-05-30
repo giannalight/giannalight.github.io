@@ -15,11 +15,15 @@ h1 {
     color:#424242
 }
 h2 {
-    font-family: 'Fjalla One', sans-serif;
+    font-family: 'Fjalla One', sans-serif;font-size: 2.3rem;
     letter-spacing: 0em; 
     border: .2rem solid black ;
     padding: .5rem;
     margin-left: 2rem;
+}
+h3 {
+    font-family: 'Fjalla One', sans-serif; font-size:1.4rem; font-variant: normal; font-weight: 600;
+    text-align:center;
 }
 .navbar-nav .nav-link {
     margin-right: 1.5rem;
@@ -39,15 +43,24 @@ h2 {
   }
 #coloredbox {
     background-color: #F7F7F7 ;
-    padding: .2rem ;
+    padding:1.5rem;
     border: 1.7rem solid #C1D4C9 ;
     margin-top: 2em;
     margin-bottom:2em;
     margin-left: auto;
     margin-right: auto;
     width:43rem;
+    text-align: left;
   }
-  
+  #coloredbox1 {
+    padding: .2rem ;
+    margin-top: 1.5em;
+    margin-bottom:1.5em;
+    margin-left: auto;
+    margin-right: auto;
+    width:43rem;
+  }
+
 .gallery-row {
     margin-bottom: 2rem;
 }
@@ -63,7 +76,7 @@ h2 {
 p {
     margin: 0 auto;
     padding:.9rem;
-    width: 39rem;
+    width: 38rem;
     text-align: left;
     } 
         
