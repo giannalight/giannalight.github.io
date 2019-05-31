@@ -21,14 +21,16 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
+<div id="coloredbox">
 <h3>"This Is America"- Childish Gambino Analysis</h3>
 
 A short documentary analyzing the underlying themes of Childish Gambino’s "This Is America" music video.
-
+<br> 
+<br> 
 This short documentary aims to educate and raise questions surrounding the topic of guns and gun rights in the United States. We break down the symbolism in Childish Gambino’s Grammy award winning music video, and discuss current issues regarding guns and racism against African Americans.
     </div>
 <div class="embed-responsive embed-responsive-16by9">
-                    <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_dyx5UuLB6o?modestbranding=0&showinfo=0&rel=0" frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>    
+        <iframe class="embed-responsive-item" src="https://www.youtube.com/embed/_dyx5UuLB6o?modestbranding=0&showinfo=0&rel=0" frameborder="0" allow="encrypted-media; picture-in-picture; fullscreen" allowfullscreen></iframe>    
                 </div>
 <div id="coloredbox">
 <h3>Play Time</h3>
