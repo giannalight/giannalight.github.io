@@ -9,14 +9,12 @@
 </head>
 <body>
     {{ partial "navbar.html" (dict "context" . "originPage" "home") }}
+    <h5>portfolio</h5>
     {{/*  partial takes two parameters: first parameter is a string, the second is an object  */}}
     {{/*  in this case, the second argument is a dictionary object  */}}
     {{/*  dict creates a new dictionary with a set of key-value pairs. 
         As many as you want, but they must be paired "key value key value key value" */}}
+        <img src="https://www.babybedding.com/images/fabric/solid-mauve-fabric_large.jpg" alt="bckground" class="bg" />
 
-    {{ partial "card-layout.html" . }}
-
-
-    {{ partial "scripts.html" }}
 </body>
 </html>

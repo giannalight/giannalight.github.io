@@ -32,6 +32,17 @@ h4 {
     letter-spacing: .01em;
     color:#424242
   }
+h5{
+    position: absolute;
+    left:50%;
+    margin-left: -16rem;
+    top: 50%;
+    margin-top: -.2rem;
+    text-align: center;
+    font-family: 'Merriweather', serif; font-size: 7rem;
+    letter-spacing: .08em;
+    color:black;
+}  
 .navbar-nav .nav-link {
     margin-right: 1.5rem;
     margin-left: 1.5rem;
@@ -102,4 +113,8 @@ p {
 }
 .col-sm-8 {
     margin-left:-9rem;
+}
+img.bg {
+    width:100%;
+    background-size: auto;
 }
