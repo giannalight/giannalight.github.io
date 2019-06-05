@@ -21,3 +21,13 @@
     #Alt text is the text that gets read by screenreaders for accessibility (typically for the visually impaired) 
 
 +++
+
+ <div class="container">
+ <img src="laptop.jpg" />
+ </div>
+ </div>
+ <img src="web1.jpg" class="imgfluid" alt="Responsive image"/>
+ </div>
+ <img src="web2.jpg" class="imgfluid"/>
+ <img src="web3.jpg" class="imgfluid"/>
+ </div>

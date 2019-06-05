@@ -35,8 +35,8 @@ h4 {
 h5{
     position: absolute;
     left:50%;
-    margin-left: -16rem;
-    top: 50%;
+    margin-left: -14rem;
+    top: 45%;
     margin-top: -.2rem;
     text-align: center;
     font-family: 'Merriweather', serif; font-size: 7rem;
@@ -104,17 +104,42 @@ p {
     height: 70%;
     width: 70%;
 }
-    #carousel {
+
+#carouselExampleControls {
+    max-height: 30%;
+    width: 50%;
         margin-top: -3.5rem;
         margin-bottom:1.5em;
         margin-left: auto;
         margin-right: auto;
-        width:62rem;
 }
 .col-sm-8 {
     margin-left:-9rem;
 }
-img.bg {
-    width:100%;
+.imgfluid {
+ max-width: 100%;
+  height: auto;
+  padding:2rem;
+}
+/* Three image containers (use 25% for four, and 50% for two, etc) */
+.column {
+    background-image:url(https://www.babybedding.com/images/fabric/solid-mauve-fabric_large.jpg);
+    z-index:1;
+    float: left;
+    width: 33.33%;
+    padding: 2.5rem;
+  }
+
+  /* Clear floats after image containers */
+  .row::after {
+    z-index:1;
+    content: "";
+    clear: both;
+    display: table;
+  }
+  img.bg {
+    max-height: 37rem;
+    z-index:-1;
     background-size: auto;
+    width:100%;
 }

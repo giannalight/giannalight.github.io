@@ -5,16 +5,32 @@
     {{/*  imports "head.html" from the partials/ folder in layouts/  */}}
     {{/*  the second argument is the context for variables in "head.html" and using "." 
     means use the same variable namespace as this document  */}}
-
+ 
 </head>
 <body>
     {{ partial "navbar.html" (dict "context" . "originPage" "home") }}
+    
     <h5>portfolio</h5>
-    {{/*  partial takes two parameters: first parameter is a string, the second is an object  */}}
-    {{/*  in this case, the second argument is a dictionary object  */}}
-    {{/*  dict creates a new dictionary with a set of key-value pairs. 
-        As many as you want, but they must be paired "key value key value key value" */}}
-        <img src="https://www.babybedding.com/images/fabric/solid-mauve-fabric_large.jpg" alt="bckground" class="bg" />
 
+        <img src="https://www.babybedding.com/images/fabric/solid-mauve-fabric_large.jpg" alt="bckground" class="bg" />
+          <div class="row">
+            <div class="column">
+                <a href="/projects/video/">
+                  <img src="https://img.jakpost.net/c/2018/05/14/2018_05_14_45899_1526265228._large.jpg" alt="videostill" style="width:99%">
+            </div>
+          </a> 
+            <div class="column">
+                <a href="/projects/design/">
+              <img src="https://live.staticflickr.com/65535/48009948501_2eae71b85c_z.jpg" alt="webdesign" style="width:99%">
+            </div>
+          </a>
+
+            <div class="column">
+                <a href="/projects/photography/">
+              <img src="https://live.staticflickr.com/65535/48009818613_869d352982_b.jpg" alt="photography" style="width:99%">
+            </div>
+          </a> 
+          </div>
+        {{ partial "scripts.html" . }}
 </body>
 </html>

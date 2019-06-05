@@ -22,18 +22,44 @@
 
 +++
 </div>
-<div id="carousel" 
-  class="carousel slide" 
-    data-ride="carousel">
-  <div class="carousel-inner">
+
+<div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+  <div class="carousel-inner" >
     <div class="carousel-item active">
-      <img class="d-block w-100" src="arc.jpeg" alt="First slide">
+      <img src="arc.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="horse.JPG" alt="Second slide">
+      <img src="horse.jpg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img class="d-block w-100" src="horse.JPG" alt="Third slide">
+      <img src="portrait-siler.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="room.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="santc.jpeg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="wave.jpeg" class="d-block w-100" alt="...">
+    </div>
+  <div class="carousel-item">
+      <img src="natalia.jpeg" class="d-block w-100" alt="...">
+    </div>
+     <div class="carousel-item">
+      <img src="woods.jpeg" class="d-block w-100" alt="...">
+    </div>
+<div class="carousel-item">
+      <img src="natalia.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="lifeg.jpg" class="d-block w-100" alt="...">
+    </div>
+  <div class="carousel-item">
+      <img src="vbeach.jpg" class="d-block w-100" alt="...">
+    </div>
+<div class="carousel-item">
+      <img src="flowers.jpeg" class="d-block w-100" alt="...">
     </div>
   </div>
   <a class="carousel-control-prev" href="#carouselExampleControls" role="button" data-slide="prev">
