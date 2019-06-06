@@ -126,7 +126,7 @@ p {
     z-index:1;
     float: left;
     width: 33.33%;
-    padding: 3.5rem;
+    padding: 10rem;
   }
 
   /* Clear floats after image containers */
