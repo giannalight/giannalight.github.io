@@ -8,7 +8,7 @@
     
     date = 2019-05-19T17:02:23-07:00 #the date the file was created
     
-    shortDescription = "My very first LP"
+    shortDescription = "Photos captured and edited by me"
     projectVideo = ""
     #Project video is just the unique part of the URL  
     # For example, if the link is https://vimeo.com/285189099 then the unique part is  285189099
