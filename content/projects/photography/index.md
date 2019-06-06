@@ -29,9 +29,6 @@
       <img src="arc.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
-      <img src="horse.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
       <img src="portrait-siler.jpeg" class="d-block w-100" alt="...">
     </div>
     <div class="carousel-item">
