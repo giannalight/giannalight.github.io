@@ -40,20 +40,20 @@
     <div class="carousel-item">
       <img src="santc.jpeg" class="d-block w-100" alt="...">
     </div>
+     <div class="carousel-item">
+      <img src="siportrait.jpeg" class="d-block w-100" alt="...">
+    </div>
     <div class="carousel-item">
       <img src="wave.jpeg" class="d-block w-100" alt="...">
     </div>
-  <div class="carousel-item">
-      <img src="natalia.jpeg" class="d-block w-100" alt="...">
+    <div class="carousel-item">
+      <img src="lifeg.jpg" class="d-block w-100" alt="...">
+    </div>
+    <div class="carousel-item">
+      <img src="natalia.jpg" class="d-block w-100" alt="...">
     </div>
      <div class="carousel-item">
       <img src="woods.jpeg" class="d-block w-100" alt="...">
-    </div>
-<div class="carousel-item">
-      <img src="natalia.jpg" class="d-block w-100" alt="...">
-    </div>
-    <div class="carousel-item">
-      <img src="lifeg.jpg" class="d-block w-100" alt="...">
     </div>
   <div class="carousel-item">
       <img src="vbeach.jpg" class="d-block w-100" alt="...">
